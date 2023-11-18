@@ -20,3 +20,4 @@ const raiseValueToPower2 = function (base) {
 };
 
 export default raiseValueToPower2;
+
