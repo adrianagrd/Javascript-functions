@@ -9,17 +9,17 @@
 
 /**
  * check if type of value matches type received as argument
- * @param {string | number | boolean | array} value
- * @param {boolean} type
+ * @param {any} value
+ * @param {string} type
  * @returns {boolean}
  */
 
 function isTypeOf(value, type) {
-  if (type === "array") {
-    return Array.isArray(value);
-  } else {
-    return typeof value === type;
-  }
+    if (Array.isArray(value) ) {
+        return type === "array";
+    } else {
+        return typeof value === type;
+    }
 }
 
 export default isTypeOf;
