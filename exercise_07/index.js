@@ -6,6 +6,5 @@ const isBoolean = isTypeOf("boolean");
 const isArray = isTypeOf("array");
 
 console.log(isString("hello")); // true
-console.log(isNumber(123)); // true
-console.log(isBoolean(true)); // true
 console.log(isArray([1, 2, 3])); // true
+console.log(isArray("hello")); // false

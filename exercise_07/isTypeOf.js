@@ -15,9 +15,11 @@
  */
 
 function isTypeOf(value, type) {
-    if (Array.isArray(value) ) {
+    if (Array.isArray(value)) {
         return type === "array";
-    } else {
+    }
+
+    if (type === "number" || type === "string" || type === "boolean") {
         return typeof value === type;
     }
 }
