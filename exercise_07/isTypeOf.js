@@ -15,11 +15,11 @@
  */
 
 function isTypeOf(value, type) {
-    if (type === "array") {
-        return Array.isArray(value);
-    } else {
-        return typeof value === type;
-    }
+  if (type === "array") {
+    return Array.isArray(value);
+  } else {
+    return typeof value === type;
+  }
 }
 
 export default isTypeOf;
