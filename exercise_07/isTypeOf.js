@@ -15,13 +15,13 @@
  */
 
 function isTypeOf(value, type) {
-    if (Array.isArray(value)) {
-        return type === "array";
-    }
+  if (Array.isArray(value)) {
+    return type === "array";
+  }
 
-    if (type === "number" || type === "string" || type === "boolean") {
-        return typeof value === type;
-    }
+  if (type === "number" || type === "string" || type === "boolean") {
+    return typeof value === type;
+  }
 }
 
 export default isTypeOf;

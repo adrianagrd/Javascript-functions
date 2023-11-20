@@ -11,10 +11,10 @@
  */
 
 const getTotalWordsFromString = function (sentence) {
-    const words = sentence.split(" ");
-    const totalWords = words.length;
+  const words = sentence.split(" ");
+  const totalWords = words.length;
 
-    return totalWords;
+  return totalWords;
 };
 
 export default getTotalWordsFromString;

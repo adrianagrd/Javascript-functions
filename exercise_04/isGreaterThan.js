@@ -13,9 +13,9 @@
  */
 
 const isGreaterThan = function (value, threshold) {
-    const isGreaterThan = value > threshold;
+  const isGreaterThan = value > threshold;
 
-    return isGreaterThan;
+  return isGreaterThan;
 };
 
 export default isGreaterThan;

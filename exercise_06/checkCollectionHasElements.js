@@ -11,10 +11,10 @@
  */
 
 const checkCollectionHasElements = function (collection) {
-    const collectionLength = collection.length;
-    const isNotEmpty = collectionLength > 0;
+  const collectionLength = collection.length;
+  const isNotEmpty = collectionLength > 0;
 
-    return isNotEmpty;
+  return isNotEmpty;
 };
 
 export default checkCollectionHasElements;

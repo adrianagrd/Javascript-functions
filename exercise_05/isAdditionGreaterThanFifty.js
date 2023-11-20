@@ -13,10 +13,10 @@
  */
 
 const isAdditionGreaterThanFifty = function (summand1, summand2) {
-    const sum = summand1 + summand2;
-    const isGreaterThanFifty = sum > 50;
+  const sum = summand1 + summand2;
+  const isGreaterThanFifty = sum > 50;
 
-    return isGreaterThanFifty;
+  return isGreaterThanFifty;
 };
 
 export default isAdditionGreaterThanFifty;

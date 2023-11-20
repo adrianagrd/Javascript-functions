@@ -11,10 +11,10 @@
  */
 
 const generateRandomNumberInRange = function (limit) {
-    const randomNumber = Math.random() * limit;
-    const roundedRandomNumber = Math.round(randomNumber);
+  const randomNumber = Math.random() * limit;
+  const roundedRandomNumber = Math.round(randomNumber);
 
-    return roundedRandomNumber;
+  return roundedRandomNumber;
 };
 
 export default generateRandomNumberInRange;

@@ -13,9 +13,9 @@
  */
 
 const getDistanceFromThreshold = function (value, threshold) {
-    const distance = value - threshold;
+  const distance = value - threshold;
 
-    return distance;
+  return distance;
 };
 
 export default getDistanceFromThreshold;
