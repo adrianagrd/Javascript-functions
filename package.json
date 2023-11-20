@@ -1,26 +1,16 @@
 {
-  "name": "05_javascript_functions",
-  "version": "1.0.0",
-  "description": "JS functions",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "prettier --check .",
-    "lint:fix": "prettier --write ."
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/adrianagrd/Javascript-functions.git"
-  },
-  "bugs": {
-    "url": "https://github.com/adrianagrd/Javascript-functions/issues"
-  },
-  "homepage": "https://github.com/adrianagrd/Javascript-functions#readme",
-  "devDependencies": {
-    "prettier": "^3.1.0"
-  }
+    "name": "03_javascript_foundations",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "lint": "npx prettier . --check",
+        "lint:fix": "npx prettier . --write"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "prettier": "3.0.3"
+    }
 }
