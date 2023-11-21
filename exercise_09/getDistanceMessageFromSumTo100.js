@@ -19,3 +19,20 @@
  * random (generated in function): 40
  * output: "Sum with value 70 isd left in 30 from number 100"
  */
+
+/**
+ * @param {number} value
+ * @returns {string}
+ */
+
+function getDistanceMessageFromSumTo100(value) {
+    let random = Math.floor(Math.random() * 100);
+    let sum = value + random;
+    if (sum > 100) {
+        return `Sum with value ${sum} exceeds in ${sum - 100} from number 100`;
+    } else {
+        return `Sum with value ${sum} is left in ${100 - sum} from number 100`;
+    }
+}
+
+export default getDistanceMessageFromSumTo100;
