@@ -26,14 +26,14 @@ import isGreaterThan from "../exercise_04/isGreaterThan";
  */
 
 function formatStringByWordsLength(sentence) {
-    const words = sentence.split(" ");
-    const exceeds = isGreaterThan(words.length, 5);
+  const words = sentence.split(" ");
+  const exceeds = isGreaterThan(words.length, 5);
 
-    if (exceeds) {
-        return sentence.toUpperCase();
-    }
+  if (exceeds) {
+    return sentence.toUpperCase();
+  }
 
-    return sentence.toLowerCase();
+  return sentence.toLowerCase();
 }
 
 export default formatStringByWordsLength;
