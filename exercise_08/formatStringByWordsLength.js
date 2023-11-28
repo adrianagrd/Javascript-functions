@@ -1,5 +1,5 @@
-import isGreaterThan from "../exercise_04/isGreaterThan";
-
+import isGreaterThan from "../exercise_04/isGreaterThan.js";
+import getTotalWordsFromString from "../exercise_02/getTotalWordsFromString.js";
 /**
  * Write JS function "formatStringByWordsLength" to check number of words contained in given string
     - if total number of words is greater then 5, then return uppercase string
@@ -26,14 +26,9 @@ import isGreaterThan from "../exercise_04/isGreaterThan";
  */
 
 function formatStringByWordsLength(sentence) {
-  const words = sentence.split(" ");
-  const exceeds = isGreaterThan(words.length, 5);
+    const words = getTotalWordsFromString(sentence);
+    const exceeds = isGreaterThan(words, 5);
 
-  if (exceeds) {
-    return sentence.toUpperCase();
-  }
-
-  return sentence.toLowerCase();
+    return exceeds ? sentence.toUpperCase() : sentence.toLowerCase();
 }
-
 export default formatStringByWordsLength;

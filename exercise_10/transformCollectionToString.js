@@ -26,11 +26,11 @@ import checkCollectionHasElements from "../exercise_06/checkCollectionHasElement
  */
 
 function transformCollectionToString(collection) {
-  const haveElement = checkCollectionHasElements(collection);
-  if (haveElement) {
-    return collection.join(" | ");
-  }
-  return "";
+    const hasElements = checkCollectionHasElements(collection);
+    if (hasElements) {
+        return collection.join(" | ");
+    }
+    return "";
 }
 
 export default transformCollectionToString;
