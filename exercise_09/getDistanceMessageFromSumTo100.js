@@ -28,13 +28,13 @@ import getDistanceFromThreshold from "../exercise_01/getDistanceFromThreshold.js
  */
 
 function getDistanceMessageFromSumTo100(value) {
-    const random = generateRandomNumberInRange(100);
-    const sum = value + random;
-    const distance = getDistanceFromThreshold(sum, 100);
+  const random = generateRandomNumberInRange(100);
+  const sum = value + random;
+  const distance = getDistanceFromThreshold(sum, 100);
 
-    return sum > 100
-        ? `Sum with value ${sum} exceeds in ${sum - 100} from number 100`
-        : `Sum with value ${sum} is left in ${100 - sum} from number 100`;
+  return sum > 100
+    ? `Sum with value ${sum} exceeds in ${sum - 100} from number 100`
+    : `Sum with value ${sum} is left in ${100 - sum} from number 100`;
 }
 
 export default getDistanceMessageFromSumTo100;
